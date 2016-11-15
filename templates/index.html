@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shoggoth.net</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="/dist/main.css" type="text/css" media="all"/>
+
+
+</head>
+
+<body ng-app="Shoggoth" >
+
+    <!-- Navigation --> 
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="padding-top: 0px;">
+                    <img src="./img/logo.gif" alt="">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Art</a>
+                    </li>
+                    <li>
+                        <a href="#">Cthulhiana</a>
+                    </li>
+                    <li>
+                        <a href="#">Weird Fiction</a>
+                    </li>
+                    <li>
+                        <a href="#">Gaming</a>
+                    </li>
+                    <li>
+                        <a href="#">Conventions</a>
+                    </li>
+                    <li>
+                        <a href="#">News & Culture</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style=""> Login/Create Account</span><span  style="display: none;">Username (0)</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><form><input type="text" placeholder="username" class="loginform"> <input type="password" placeholder="Password"  class="loginform"> <input type="checkbox">Stay Logged in <button>Login</button></form></li>
+                        <li role="separator" class="divider"></li>
+                        <li> Log in with <br> <img src="./img/social_icons/icon-facebook.png" title="Facebook" description="Facebook"> <img src="./img/social_icons/icon-twitter.png" title="Twitter" description="Twitter"> <img src="./img/social_icons/icon-google.png" title="Google+" description="Google+"></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Create Account</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Heading Row -->
+        <div class="row" style="padding-top: 10px;">
+            <div class="col-md-9">
+                <!-- Content Row -->
+                <!-- <img class="img-responsive img-rounded" src="http://placehold.it/900x350" alt=""> -->
+                <img class="img-responsive img-rounded" src="./img/big_banners/bradhicks_shoggoth.png" alt="">
+                <div >
+                    <div  class="col-xs-1 text-right no-gutter"  ><img src="./img/searchbox/s.gif"> </div>
+                    <div  class="col-xs-10 no-gutter" >
+                        <div style='background-image: url("./img/searchbox/searchbg.gif")'><img src="./img/searchbox/earch.gif"> </div>
+                        <div  > <input  name="query" style="color: #8291A6; background-color: #FFFFff; border-style: solid; border-color: #8291A6; width: 100%;"> </div>
+                    </div>
+                    <div  class="col-xs-1 no-gutter" ><img src="./img/searchbox/go.gif"> </div>
+                </div>
+                    <p class="padded">This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want! Screen size: <span id="screenwidth"></span></p>
+                    <a class="btn btn-primary btn-lg" href="#" onclick="$('#screenwidth').html($(window).width());">Call to Action!</a>
+                    <!-- /.col-md-4 -->
+            </div>
+            <!-- /.col-md-8 -->
+        <!-- Call to Action Well -->  
+            <div class="col-md-3   row sidebar ">
+                <div class="well text-center">
+                    <a href="https://www.facebook.com/shoggothdotnet/?fref=ts" target="_new"><img src="./img/social_icons/icon-facebook.png" title="Facebook" description="Facebook"></a>
+                    <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fshoggoth.net%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=shoggothnet&tw_p=followbutton" target="_new"><img src="./img/social_icons/icon-twitter.png" title="Twitter" description="Twitter"></a>
+                    <a href="http://www.tumblr.com/follow/shoggothnet" target="_new"><img src="./img/social_icons/icon-tumblr.png" title="Tumblr" description="Tumblr"></a>
+                    <a href="#" target="_new"><img src="./img/social_icons/icon-google.png" title="Google+" description="Google+"></a>
+                    <a href="https://www.youtube.com/channel/UCMBvMLMsNqLvXbNS205F28w" target="_new"><img src="./img/social_icons/icon-youtube.png" title="Youtube" description="Youtube"></a>
+                    <a href="#" target="_new"><img src="./img/social_icons/icon-rss.png" title="RSS" description="RSS"></a>
+                </div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/370x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/370x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/370x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/370x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/370x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/370x80" alt=""></a></div>
+            </div>
+        <!-- /.row -->
+            <!-- /.col-md-4 -->
+        </div>
+        <!-- /.row -->
+        <div class="row"  >
+            <div class="col-md-9 mainArticleBox"  style="background-color: #ffffff;" ng-controller="articlesController">
+                <hr>
+                <div class="col-md-4" ng-repeat="article in articleList ">
+                    <h2>{{article.Title}}</h2>
+                    <p>{{article.Teaser}}</p>
+                    <a class="" href="#{{article.url}}">Read more...</a>
+                </div>
+            </div>
+            <!-- /.col-md-8 -->
+            <!-- Call to Action Well -->
+            <div class="col-md-3   row sidebar" style="height:100vh;">
+                <div class="well text-center">
+                    <a href="https://www.facebook.com/shoggothdotnet/?fref=ts" target="_new"><img src="./img/social_icons/icon-facebook.png" title="Facebook" description="Facebook"></a>
+                    <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fshoggoth.net%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=shoggothnet&tw_p=followbutton" target="_new"><img src="./img/social_icons/icon-twitter.png" title="Twitter" description="Twitter"></a>
+                    <a href="http://www.tumblr.com/follow/shoggothnet" target="_new"><img src="./img/social_icons/icon-tumblr.png" title="Tumblr" description="Tumblr"></a>
+                    <a href="#" target="_new"><img src="./img/social_icons/icon-google.png" title="Google+" description="Google+"></a>
+                    <a href="https://www.youtube.com/channel/UCMBvMLMsNqLvXbNS205F28w" target="_new"><img src="./img/social_icons/icon-youtube.png" title="Youtube" description="Youtube"></a>
+                    <a href="#" target="_new"><img src="./img/social_icons/icon-rss.png" title="RSS" description="RSS"></a>
+                </div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/360x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/360x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/360x80" alt=""></a></div>
+                <div class="text-center" style="margin-bottom: 15px;"><a href ="#"><img class="img-responsive img-rounded" src="http://placehold.it/360x80" alt=""></a></div>
+            </div>
+            <!-- /.row -->
+            <!-- /.col-md-4 -->
+        </div>
+
+        <!-- Call to Action Well -->
+        <div class="row">
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+ 
+    </div>
+    <!-- /.container --> 
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <script async src="/dist/main.js"></script>
+    <!--
+      <div id="space">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+      </div>
+      -->
+</body>
+
+</html>

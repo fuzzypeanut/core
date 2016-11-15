@@ -1,0 +1,26 @@
+{
+  "name": "shoggothnet",
+  "description": "[Small Business](http://startbootstrap.com/template-overviews/small-business/) is a responsive marketing landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).",
+  "version": "1.0.0",
+  "main": "public/hs/app.js",
+  "dependencies": {
+    "angular-ui-bootstrap": "^2.0.1"
+  },
+  "devDependencies": {
+    "stylus": "latest",
+    "jade": "latest",
+    "uglify-js": "latest",
+    "watch": "latest",
+    "parallelshell": "latest"
+  },
+  "scripts": {
+    "build:js": "uglifyjs  assets/scripts/jquery.js  assets/scripts/angular.js  assets/scripts/bootstrap.js assets/scripts/app.js  assets/plugins/*/scripts/*  -o  public/dist/main.js --source-map public/dist/main.js.map  --source-map-root http://192.168.1.110/src  -p 5",
+    "watch:js": "watch 'npm run build:js' assets/scripts/",
+    "build:css": "cleancss  assets/styles/*.css >  public/dist/main.css",
+    "watch:css": "watch 'npm run build:css' assets/styles/",
+    "build": "npm run build:js && npm run build:css",
+    "build:watch": "parallelshell 'npm run watch:js' 'npm run watch:css'"
+  },
+  "author": "Matt Wiseman",
+  "license": "ISC"
+}

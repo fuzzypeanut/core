@@ -1,0 +1,12 @@
+{
+    "name": "fuzzypeanut/core",
+    "require": {
+        "slim/slim": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Matt Wiseman",
+            "email": "trollboy@shoggoth.net"
+        }
+    ]
+}
